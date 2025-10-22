@@ -1,0 +1,77 @@
+2025-10-22 12:10:05,188 - __main__ - INFO - Loading controller...
+2025-10-22 12:10:05,188 - agents.intent_agent - INFO - IntentAgent initialized
+2025-10-22 12:10:05,188 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-22 12:10:05,188 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-22 12:10:13,068 - agents.retrieval_agent - INFO - RetrievalAgent initialized
+2025-10-22 12:10:13,068 - agents.vision_agent - INFO - VisionAgent initialized
+2025-10-22 12:10:13,068 - agents.reasoning_agent - INFO - ReasoningAgent initialized
+2025-10-22 12:10:13,068 - agents.controller - INFO - Controller initialized
+2025-10-22 12:10:13,068 - agents.retrieval_agent - INFO - Loaded text index with 429 documents
+2025-10-22 12:10:13,068 - agents.retrieval_agent - INFO - Loaded image index with 6 images
+2025-10-22 12:10:45,676 - agents.controller - INFO - Processing query: application of stats
+...
+2025-10-22 12:10:47,205 - agents.intent_agent - INFO - Intent predicted: fact (confidence: 0.95)
+2025-10-22 12:10:47,398 - agents.retrieval_agent - INFO - Retrieved 5 texts and 5 images
+2025-10-22 12:10:48,301 - agents.reasoning_agent - INFO - Generated answer for query: application of stats
+...
+2025-10-22 12:11:19,105 - agents.controller - INFO - Processing query: who is this?
+...
+2025-10-22 12:11:19,917 - agents.intent_agent - INFO - Intent predicted: fact (confidence: 0.95)
+2025-10-22 12:11:19,984 - agents.retrieval_agent - INFO - Retrieved 5 texts and 5 images
+2025-10-22 12:11:20,839 - agents.reasoning_agent - INFO - Generated answer for query: who is this?
+...
+2025-10-22 12:11:39,872 - agents.controller - INFO - Processing query: A Gift of Chappals...
+2025-10-22 12:11:40,836 - agents.intent_agent - INFO - Intent predicted: fact (confidence: 0.95)
+2025-10-22 12:11:40,891 - agents.retrieval_agent - INFO - Retrieved 5 texts and 5 images
+2025-10-22 12:11:41,951 - agents.reasoning_agent - INFO - Generated answer for query: A Gift of Chappals...
+2025-10-22 12:12:26,537 - agents.controller - INFO - Processing query: what does amma says to paati?...
+2025-10-22 12:12:27,551 - agents.intent_agent - INFO - Intent predicted: fact (confidence: 0.95)
+2025-10-22 12:12:27,601 - agents.retrieval_agent - INFO - Retrieved 5 texts and 5 images
+2025-10-22 12:12:28,607 - agents.reasoning_agent - INFO - Generated answer for query: what does amma says to paati?...
+2025-10-22 12:12:43,897 - agents.controller - INFO - Processing query: what does the image says?...
+2025-10-22 12:12:44,925 - agents.intent_agent - INFO - Intent predicted: visual (confidence: 0.98)
+2025-10-22 12:12:44,986 - agents.retrieval_agent - INFO - Retrieved 5 texts and 5 images
+2025-10-22 12:12:48,827 - agents.vision_agent - INFO - Generated description for D:\Multi-Agent RAG\data\images\download (1).png
+2025-10-22 12:12:55,251 - agents.vision_agent - INFO - Generated description for D:\Multi-Agent RAG\data\images\Applications-of-Statistics-an-infographic.png
+2025-10-22 12:12:59,728 - agents.vision_agent - INFO - Generated description for D:\Multi-Agent RAG\data\images\education-15-00500-g001-550.jpg
+2025-10-22 12:13:01,211 - agents.reasoning_agent - INFO - Generated answer for query: what does the image says?...
+2025-10-22 12:42:07,903 - __main__ - INFO - Loading controller and indexes...
+2025-10-22 12:42:07,903 - agents.controller - INFO - Initializing Controller with all agents...
+2025-10-22 12:42:07,903 - agents.intent_agent - INFO - IntentAgent initialized with optimized config
+2025-10-22 12:42:07,903 - agents.retrieval_agent - INFO - Initializing RetrievalAgent with advanced models...
+2025-10-22 12:42:07,903 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-22 12:42:07,903 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-10-22 12:42:14,126 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-10-22 12:42:18,626 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully
+2025-10-22 12:42:18,632 - agents.vision_agent - INFO - VisionAgent initialized with Gemini Vision
+2025-10-22 12:42:18,632 - agents.reasoning_agent - INFO - ReasoningAgent initialized with enhanced config
+2025-10-22 12:42:18,632 - agents.memory_manager - ERROR - Error loading memory: Expecting value: line 1 column 1 (char 0)
+2025-10-22 12:42:18,632 - agents.memory_manager - INFO - MemoryManager initialized
+2025-10-22 12:42:31,098 - agents.controller - INFO - Processing query: What does the images says?...
+2025-10-22 12:42:32,394 - agents.intent_agent - INFO - Intent: VISUAL_QUERY | Confidence: 0.95 | Complexity: low
+2025-10-22 12:42:32,991 - agents.retrieval_agent - INFO - Reranked 5 documents, top score: -0.583
+2025-10-22 12:42:33,074 - agents.retrieval_agent - INFO - Retrieved: 5 texts, 0 images
+2025-10-22 12:42:35,653 - agents.memory_manager - INFO - Saved 1 turns to memory
+2025-10-22 12:43:17,353 - agents.controller - INFO - Processing query: what are the statstitics?...
+2025-10-22 12:43:19,009 - agents.intent_agent - INFO - Intent: VISUAL_QUERY | Confidence: 0.75 | Complexity: low
+2025-10-22 12:43:19,242 - agents.retrieval_agent - INFO - Reranked 5 documents, top score: -11.116
+2025-10-22 12:43:19,271 - agents.retrieval_agent - INFO - Retrieved: 5 texts, 0 images
+2025-10-22 12:43:20,368 - agents.memory_manager - INFO - Saved 2 turns to memory
+2025-10-22 12:43:56,897 - agents.controller - INFO - Processing query: application of stats in the images...
+2025-10-22 12:43:58,337 - agents.intent_agent - INFO - Intent: VISUAL_QUERY | Confidence: 0.85 | Complexity: medium
+2025-10-22 12:43:58,723 - agents.retrieval_agent - INFO - Reranked 10 documents, top score: -8.949
+2025-10-22 12:43:58,750 - agents.retrieval_agent - INFO - Retrieved: 5 texts, 0 images
+2025-10-22 12:44:00,064 - agents.memory_manager - INFO - Saved 3 turns to memory
+2025-10-22 12:44:29,622 - agents.controller - INFO - Processing query: data analysis vs data science
+...
+2025-10-22 12:44:31,292 - agents.intent_agent - INFO - Intent: COMPARATIVE_ANALYSIS | Confidence: 0.95 | Complexity: medium
+2025-10-22 12:44:31,639 - agents.retrieval_agent - INFO - Reranked 10 documents, top score: -11.234
+2025-10-22 12:44:31,665 - agents.retrieval_agent - INFO - Retrieved: 5 texts, 2 images
+2025-10-22 12:44:31,666 - agents.controller - INFO - Analyzing 2 images...
+2025-10-22 12:44:57,015 - agents.memory_manager - INFO - Saved 4 turns to memory
+2025-10-22 12:45:36,999 - agents.controller - INFO - Processing query: who is amar?
+...
+2025-10-22 12:45:38,344 - agents.intent_agent - INFO - Intent: FACT_LOOKUP | Confidence: 0.95 | Complexity: low
+2025-10-22 12:45:38,586 - agents.retrieval_agent - INFO - Reranked 5 documents, top score: -1.707
+2025-10-22 12:45:38,586 - agents.retrieval_agent - INFO - Retrieved: 5 texts, 0 images
+2025-10-22 12:45:40,314 - agents.memory_manager - INFO - Saved 5 turns to memory

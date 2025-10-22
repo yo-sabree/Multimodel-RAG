@@ -1,0 +1,32 @@
+2025-10-22 12:01:44,195 - __main__ - INFO - Starting RAG system initialization...
+2025-10-22 12:01:44,197 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-22 12:01:44,197 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-10-22 12:01:52,398 - agents.retrieval_agent - INFO - RetrievalAgent initialized
+2025-10-22 12:01:52,398 - __main__ - INFO - Building text index from PDFs...
+2025-10-22 12:01:55,624 - agents.retrieval_agent - INFO - Extracted 3 chunks from chapter1_learning_together.pdf
+2025-10-22 12:02:05,663 - agents.retrieval_agent - INFO - Extracted 1 chunks from chapter2_wit_and_humour.pdf
+2025-10-22 12:02:09,515 - agents.retrieval_agent - INFO - Extracted 3 chunks from chapter3_dreams_and_discoveries.pdf
+2025-10-22 12:02:13,193 - agents.retrieval_agent - INFO - Extracted 2 chunks from chapter4_travel_and_adventure.pdf
+2025-10-22 12:02:16,664 - agents.retrieval_agent - INFO - Extracted 1 chunks from chapter5_bravehearts.pdf
+2025-10-22 12:02:25,466 - agents.retrieval_agent - INFO - Text index built with 429 documents
+2025-10-22 12:02:25,466 - __main__ - INFO - Building image index...
+2025-10-22 12:02:25,466 - agents.retrieval_agent - INFO - Found 6 images
+2025-10-22 12:02:25,921 - agents.retrieval_agent - INFO - Image index built with 6 images
+2025-10-22 12:02:25,921 - __main__ - INFO - Indexes created successfully!
+2025-10-22 12:02:25,921 - __main__ - INFO - You can now run the Streamlit app: streamlit run streamlit_app.py
+2025-10-22 12:39:06,647 - __main__ - INFO - ================================================================================
+2025-10-22 12:39:06,648 - __main__ - INFO - Starting RAG System Index Builder
+2025-10-22 12:39:06,648 - __main__ - INFO - ================================================================================
+2025-10-22 12:39:06,648 - agents.retrieval_agent - INFO - Initializing RetrievalAgent with advanced models...
+2025-10-22 12:39:06,649 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-10-22 12:39:06,650 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-mpnet-base-v2
+2025-10-22 12:39:12,007 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-10-22 12:39:32,016 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-10-22 12:39:43,033 - sentence_transformers.cross_encoder.CrossEncoder - INFO - Use pytorch device: cpu
+2025-10-22 12:39:47,718 - agents.retrieval_agent - INFO - RetrievalAgent initialized successfully
+2025-10-22 12:39:47,719 - agents.retrieval_agent - INFO - Processing 5 PDF files...
+2025-10-22 12:40:28,364 - agents.retrieval_agent - INFO - Total documents extracted: 465
+2025-10-22 12:40:28,364 - agents.retrieval_agent - INFO - Generating embeddings for text documents...
+2025-10-22 12:41:10,391 - agents.retrieval_agent - INFO - Found 6 images
+2025-10-22 12:41:10,391 - agents.retrieval_agent - INFO - Generating embeddings for images...
+2025-10-22 12:41:10,997 - __main__ - INFO - Index building completed successfully
